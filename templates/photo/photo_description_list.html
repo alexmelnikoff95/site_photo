@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for p in photo %}
+    <div class="image">
+        <img src="{{ p.image.url }}" class="img-fluid" alt="">
+    </div>
+{% endfor %}
+</body>
+</html>
